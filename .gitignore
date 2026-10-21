@@ -1,0 +1,8 @@
+__pycache__/
+*.bin
+*.safetensors
+results/log_*.txt
+# 실행 중엔 계속 바뀌어서 제외, 끝나면 git add -f 로 커밋
+results/*.json
+results/v2/*.json
+results/v2/*.txt
